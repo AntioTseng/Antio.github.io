@@ -883,20 +883,20 @@ footer {
 }
 
 #keywords {
-    padding: 30px 15px;
-    text-align: center
+    padding: 15px 15px;
+    text-align: center;
 }
 
 #keywords h2 {
     color: #374054;
-    margin-bottom: 50px
+    margin-bottom: 25px;
 }
 
 #keywords ul {
     display: block;
     margin: 0 auto;
     padding: 0;
-    max-width: 800px
+    max-width: 800px;
 }
 
 #keywords li {
@@ -907,5 +907,5 @@ footer {
     background: hsl(240, 54%, 86%);
     list-style: none;
     cursor: default;
-    font-size: 0.8em
+    font-size: 0.8em;
 }
