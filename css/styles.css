@@ -882,10 +882,14 @@ footer {
     }
 }
 
-
 #keywords {
     padding: 30px 15px;
     text-align: center
+}
+
+#keywords h2 {
+    color: #374054;
+    margin-bottom: 50px
 }
 
 #keywords ul {
