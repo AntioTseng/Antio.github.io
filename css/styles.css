@@ -911,7 +911,9 @@ footer {
 }
 
 #Report_Link {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #Report_Link a {
@@ -921,8 +923,9 @@ footer {
     text-decoration: none;
     font-size: 0.8em;
     color: hsl(220, 12%, 25%);
+    /* 使用 Keywords 的颜色 */
 }
 
 #Report_Link a:hover {
-    background-color: darkblue;
+    background-color: rgb(149, 149, 245);
 }
