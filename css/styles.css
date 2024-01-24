@@ -910,9 +910,11 @@ footer {
     font-size: 0.8em;
 }
 
-#Footer_Block {
-    background-color: rgb(123, 123, 244);
+.Footer_Block {
+    background-color: darkblue;
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
+    /* 为了在内容块之间添加一些间距 */
 }
