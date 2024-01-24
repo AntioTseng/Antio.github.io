@@ -912,9 +912,8 @@ footer {
 
 .Footer_Block {
     background: hsl(240, 54%, 86%);
-    color: white;
+    color: white !important;
     text-align: center;
     padding: 0px;
     margin-top: 10px;
-    font-size: 0.8em;
 }
