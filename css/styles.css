@@ -911,9 +911,7 @@ footer {
 }
 
 #Report_Link {
-    position: relative;
-    text-align: right;
-    margin-top: 10px;
+    float: right;
 }
 
 #Report_Link a {
