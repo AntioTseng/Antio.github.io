@@ -913,21 +913,18 @@ footer {
 #Report_Link {
     position: relative;
     z-index: 1;
-    margin-top: -20px;
-    margin-right: 10px;
+    top: -20px;
+    right: 10px;
 }
 
 #Report_Link a {
     display: inline-block;
     padding: 8px;
-    /* 减小 padding */
     background-color: hsl(240, 54%, 86%);
     text-decoration: none;
-    font-size: 0.4em;
-    /* 调小字体大小 */
+    font-size: 0.8em;
     color: hsl(220, 12%, 25%);
     font-family: 'Circular', sans-serif;
-    /* 选择字体 */
 }
 
 #Report_Link a:hover {
