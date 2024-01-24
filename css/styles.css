@@ -909,3 +909,23 @@ footer {
     cursor: default;
     font-size: 0.8em;
 }
+
+.internship-report {
+    position: relative;
+}
+
+.report-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    /* Optional: Change cursor to indicate clickability */
+}
+
+.report-link:hover {
+    background-color: darkblue;
+}
