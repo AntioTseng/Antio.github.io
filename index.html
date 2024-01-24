@@ -155,7 +155,8 @@
                 <h3>
                     <a href="https://ikala.ai/zh-tw/"><b>iKala Interactive Media Inc.</b></a>
                     <div id="Report_Link">
-                        <a href="doc/Antio_Internship_Report_Only_Project.pdf">Internship Report</a>
+                        <a href="doc/Antio_Internship_Report_Only_Project.pdf" onclick="openReport()">Internship
+                            Report</a>
                     </div>
                 </h3>
                 <h4><b>Data Analyst Intern</b></h4>
@@ -403,6 +404,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script>
+        function openReport() {
+            window.open('doc/Antio_Internship_Report_Only_Project.pdf', '_blank', 'width=500,height=350');
+        }
+    </script>
 </body>
 
 </html>

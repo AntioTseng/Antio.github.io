@@ -919,10 +919,10 @@ footer {
 #Report_Link a {
     display: inline-block;
     padding: 10px;
-    color: hsl(220, 12%, 25%);
     background-color: hsl(240, 54%, 86%);
     text-decoration: none;
     font-size: 0.8em;
+    color: hsl(220, 12%, 25%);
 }
 
 #Report_Link a:hover {
