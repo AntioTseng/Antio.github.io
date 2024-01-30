@@ -585,6 +585,22 @@ footer {
     transform: none
 }
 
+.project[data-category="ml-dl"] {
+    display: block;
+}
+
+.project[data-category="object-detection"] {
+    display: block;
+}
+
+.project[data-category="database"] {
+    display: block;
+}
+
+.project[data-category="data-analyst"] {
+    display: block;
+}
+
 .carousel {
     width: 300px;
     height: 300px;
