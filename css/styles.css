@@ -1245,3 +1245,30 @@ footer {
     padding: 0px;
     margin-top: 10px;
 }
+
+
+
+.category-btn {
+    background-color: #8caccb;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.category-btn:hover {
+    background-color: #003366;
+}
+
+.category-btn[data-category="full"] {
+    background-color: #0b1f3493;
+    color: #FFFFFF;
+}
+
+.category-btn[data-category="full"]:hover {
+    background-color: #003366;
+}
