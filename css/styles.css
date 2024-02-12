@@ -516,10 +516,10 @@ footer {
 }
 
 .education-block h4 {
-    color: #74808a;
-    clear: both;
+    color: #7e8890;
+    clear: left;
     font-weight: 500;
-    margin: 0 0 15px 0
+    margin: 10px 0 15px 0
 }
 
 .education-block p,
@@ -574,7 +574,7 @@ footer {
 
 .project-info p {
     color: #74808a;
-    margin: 0 0 15px 0;
+    margin: 20px 15px 5px 15px;
     font-size: 0.9em
 }
 
@@ -600,6 +600,7 @@ footer {
 .project[data-category="data-analyst"] {
     display: block;
 }
+
 
 .carousel {
     width: 300px;
@@ -1349,4 +1350,21 @@ footer {
 
 .category-btn[data-category="full"]:hover {
     background-color: #003366;
+}
+
+
+li {
+    list-style-type: disc;
+    /* 調整點的樣式 */
+    padding-left: 2px;
+    /* 調整左邊空間 */
+    margin-left: 1px;
+    /* 調整點距離左邊邊緣的空間 */
+}
+
+ul {
+    padding-left: 18px;
+    /* 調整列表項目點距離左邊邊緣的空間 */
+    color: #183b86;
+    /* 調整列表項目文字顏色 */
 }
