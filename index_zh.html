@@ -14,7 +14,15 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
+
+
 <body>
+    <div id="language-buttons">
+        <button id="englishButton">English</button>
+        <button id="chineseButton">中文</button>
+    </div>
+
+
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -46,15 +54,14 @@
     </header>
     <!-- End header -->
 
+
     <div id="lead">
-        <div id="language-buttons">
-            <button id="englishButton">English</button>
-            <button id="chineseButton">中文</button>
-        </div>
         <div id="lead-content">
-            <h1>曾子朋</h1>
-            <h2>資料分析師 / 資料科學家<br>
-                <a href="doc/Resume.pdf" class="btn-rounded-white" target="_blank">RESUME</a>
+            <h1>曾子朋 (Antio Tseng)</h1>
+            <h2>資料分析師 / 資料科學家 <br>
+                Ex-Data Analyst Intern @iKala inc. </h2>
+            <a href="doc/Resume.pdf" class="btn-rounded-white" target="_blank">履歷</a>
+            <!-- <a href="#contact" class="btn-rounded-white" target="_blank">CONTACT ME</a> -->
         </div>
     </div>
     <!-- End #lead-content -->
@@ -79,9 +86,12 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <h2 class="heading"><b>About Me</b></h2>
+                    <h2 class="heading"><b>關於我</b></h2>
                     <p style="font-size: 18px; line-height: 1.5;">
-                        嗨！我是子朋
+                        嗨！我是子朋。我於2023年從政治大學取得統計碩士學位。我擁有一年以上的資料分析實習經驗，主要專精於<b>統計分析</b>、<b>資料探勘</b>、<b>機器學習</b>和<b>自然語言處理</b>。在我過去的實習經歷中，我曾在金融、媒體和電子商務行業中積極參與，並成功地應用資料分析方法來解決實際業務挑戰。此外，我有豐富的團隊合作經驗，曾兩次擔任過競賽團隊的領導者，並在數據科學專案中展現出卓越的領導和溝通能力。
+
+                        <br><br>
+                        未來，我期望在資料科學或人工智慧領域找到一個挑戰性的工作。我渴望與一支優秀的團隊合作，共同解決現實世界的問題，並充分發揮我的技術和專業知識。我希望能夠持續學習和成長，為未來的職業生涯不斷開拓新的領域，並取得更多的成就。
                     </p>
                 </div>
             </div>
@@ -90,43 +100,37 @@
     <!-- End #about -->
 
     <div id="education">
-        <h2 class="heading"><b>Education</b></h2>
+        <h2 class="heading"><b>學歷</b></h2>
         <div class="education-block">
-            <h3><b>National Cheng Chi University (NCCU)</b></h3>
-            <span class="education-date">Sep 2021 - Jun 2023 <br> Taipei, Taiwan</span>
-            <h4>Master of Science in Statistics</h4>
+            <h3><b>國立政治大學 NCCU</b></h3>
+            <span class="education-date">Sep 2021 - Jun 2023 <br> </span>
+            <h4>統計學系碩士班</h4>
             <ul>
                 <li>
                     GPA: 3.8 / 4.3
                 </li>
                 <li>
-                    Thesis: Analyzing Factors of Collaboration among YouTubers using Exponential Random Graph Models
+                    論文：利用指數隨機圖模型分析 YouTuber 間影片合作因素
                 </li>
                 <li>
-                    Teaching Assistant: SAS/R Business Data Analysis
+                    教學助理：SAS/R 商業數據分析
                 </li>
                 <li>
-                    Relevant Courses: Text Mining and Business Applications(A+), Database Systems(A), Multivariate
-                    Analysis(A),
-                    Statistical Computation and Simulation(A), Applied Regression Analysis, Sampling Methods, Machine
-                    Learning
+                    相關課程：文本挖掘與商業應用（A+）、資料庫系統（A）、多變量分析（A）、統計計算與模擬（A）、應用迴歸分析、抽樣方法、機器學習
                 </li>
             </ul>
         </div>
 
         <div class="education-block">
-            <h3><b>National Chung Cheng University (CCU)</b></h3>
-            <span class="education-date">Sep 2017 - Jun 2021 <br> Chiayi, Taiwan</span>
-            <h4>Bachelor of Science in Economics</h4>
+            <h3><b>國立中正大學 CCU</b></h3>
+            <span class="education-date">2017/09 - 2021/06 <br> </span>
+            <h4>經濟學系</h4>
             <ul>
                 <li>
-                    Extracurricular Activities: Financial Research Club Member, Volleyball Team Captain
+                    課外活動：理財研究社社員、排球隊隊長
                 </li>
                 <li>
-                    Relevant Courses: Applied R Language and Analysis Methods(A+), Applied Statistics Software(A+),
-                    Introduction to
-                    Computing(A+), Calculus(A+), Probability(A), Linear Algebra(A), Applied R Language and Analysis
-                    Methods, Introduction to Artificial Intelligence
+                    相關課程：應用R語言與分析方法（A+）、應用統計軟體（A+）、計算機導論（A+）、微積分（A+）、機率論（A）、線性代數（A）、應用R語言與分析方法、人工智慧導論
                 </li>
             </ul>
         </div>
@@ -135,146 +139,116 @@
     <!-- End #education -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading"><b>Experience</b></h2>
+        <h2 class="heading"><b>經歷</b></h2>
         <div id="experience-timeline">
 
             <!-- 2023 competition -->
-            <div data-date="July 2023 – September 2023">
-                <h3><a href="https://aigo.org.tw/zh-tw/aigood" target="_blank"><b>AI GOOD Competition</b></a></h3>
-                <h4><b>Team Leader </b></h4>
+            <div data-date="2023/07 – 2023/09">
+                <h3><a href="https://aigo.org.tw/zh-tw/aigood" target="_blank"><b>AI GOOD 競賽</b></a></h3>
+                <h4><b>隊長 </b></h4>
                 <p>
-                    Topic: <a href="https://aigo.org.tw/zh-tw/competitions/details/501" target="_blank">Donation
-                        Behavior Prediction and Analysis of Donation Group Preferences</a> </p>
+                    題目: <a href="https://aigo.org.tw/zh-tw/competitions/details/501"
+                        target="_blank">捐款行為預測與捐款族群輪廓喜好智慧分析</a> </p>
                 <ul>
                     <li>
-                        <p>Conducted customer segmentation, utilizing machine learning algorithms to enhance targeting
-                            precision and optimize
-                            ad effectiveness, resulting in increased donation frequency and amounts.</p>
+                        <p>利用RFM模型進行客戶分割，利用機器學習算法來提高行銷準確性和優化廣告效果，從而增加捐贈頻率和金額。</p>
                     </li>
                     <li>
-                        <p>Served as team captain, leading the 5-member team to the competition's finals and ultimately
-                            receiving the Judges' Recognition Award for outstanding performance.</p>
+                        <p>擔任隊長，帶領5人小組進入競賽決賽，最終因出色表現獲得評審肯定獎。</p>
                     </li>
                 </ul>
                 <div class="Footer_Block">
-                    <a href="https://www.datastation.org.tw/cases/64" target="_blank">Achievement</a>
+                    <a href="https://www.datastation.org.tw/cases/64" target="_blank">成果</a>
                 </div>
             </div>
 
             <!-- iKala -->
-            <div data-date="September 2022 – August 2023  <br> Taipei, Taiwan">
+            <div data-date="2022/09 – 2023/08  <br> Taipei, Taiwan">
                 <h3>
-                    <a href="https://ikala.ai/zh-tw/" target="_blank"><b>iKala Interactive Media Inc.</b></a>
+                    <a href="https://ikala.ai/zh-tw/" target="_blank"><b>愛卡拉 iKala Interactive Media Inc.</b></a>
                     <!-- <a href="doc/Antio_Internship_Report_Only_Project.pdf" target="_blank"
                         style="background-color: hsl(240, 54%, 86%); color: white;">Report</a> -->
                 </h3>
-                <h4><b>Data Analyst Intern</b></h4>
+                <h4><b>資料分析實習生</b></h4>
                 <ul>
                     <li>
-                        <p>Achieved 70% average precision with a Machine Learning model for predicting
-                            influencer follower counts, resulting in a 30% boost in marketing effectiveness through
-                            optimized
-                            collaboration partner selection.</p>
+                        <p>利用機器學習模型預測網紅粉絲數，達到平均召回率70%，從而通過優化合作夥伴選擇，使市場營銷效果提升 30%。</p>
                     </li>
                     <li>
-                        <p>Designed business metrics using advanced statistical methods, built
-                            a Looker Studio dashboard for the marketing team, and seamlessly integrated metrics into the
-                            product
-                            to enhance user experience.</p>
+                        <p>利用統計方法設計商業指標及其數學公式，為行銷團隊建立了Looker Studio儀表板，並將指標應用到產品中，以提升用戶體驗。</p>
                     </li>
                     <li>
-                        <p>Collaborated with ML engineers using Python for dynamic and static web scraping,
-                            extracting data from 1M+ articles. Supported NLP tasks, focusing on text classification
-                            models.
+                        <p>與機器學習工程師合作，進行動態和靜態網絡爬蟲，從超過 100M+ 篇文章中提取數據。支持 NLP 任務於文本分類模型。
                         </p>
                     </li>
                     <li>
-                        <p>Implemented Autotag-based post classification, setting a high-frequency
-                            threshold. Utilized TF-IDF analysis to effectively filter out irrelevant and high-frequency
-                            hashtags, significantly reducing noise and enhancing content relevance.</p>
+                        <p>運用 TF-IDF 分析技術，成功地濾除了高頻且無關的 Hashtag，從而極大地降低了噪音干擾，提升了內容的相關性。</p>
                     </li>
                     <li>
-                        <p>Leveraged LLM to build diverse social media knowledge graphs, seamlessly
-                            integrating entities, attributes, and relationships. Defined and enhanced with strategic
-                            prompts.</p>
+                        <p>利用 LLM 構建多樣化的社交媒體知識圖譜，定義各種類別的實體、屬性和關係。通過 Prompt Engineering 定義並使用 Few-Shots 技術進行增強。</p>
                     </li>
                 </ul>
                 <div class="Footer_Block">
-                    <a href="doc/Antio_Internship_Report_Only_Project.pdf" target="_blank">Internship Summary Report</a>
+                    <a href="doc/Antio_Internship_Report_Only_Project.pdf" target="_blank">成果</a>
                 </div>
             </div>
 
             <!-- 2022 competition -->
-            <div data-date=" July 2022 – September 2022">
-                <h3><a href="https://www.datastation.org.tw/activitys/competition-2022" target="_blank"><b>Data
-                            Collaboration Laboratory
-                            -
-                            Data Competition</b></a></h3>
-                <h4><b> Team Leader </b></h4>
+            <div data-date="2022/07 – 2022/09">
+                <h3><a href="https://www.datastation.org.tw/activitys/competition-2022" target="_blank"><b> 2022數據合作實驗室
+                            - 數據競賽 </b></a></h3>
+                <h4><b> 隊長 </b></h4>
                 <p>
-                    Topic: Prediction of Passenger Drop-off Location
+                    主題：乘客下車地理位置預測
                 </p>
                 <ul>
                     <li>
                         <p>
-                            Engineered a high-precision machine learning model using autoML to accurately predict
-                            taxi drop-off locations across Taiwan, achieving an impressive 81% accuracy rate.
+                            設計了一個高精度的機器學習模型，利用客群以及地理空間資料，準確預測台灣各地的計程車下車位置，達到了令人印象深刻的 81% 的準確率。
                         </p>
                     </li>
                     <li>
                         <p>
-                            Led a 4-member team to the competition's finals, securing the Enterprise Excellence Award
-                            for
-                            pioneering model nsembling techniques and achieving a top 10% ranking.
+                            帶領著一支 4 名成員的團隊，作為競賽 Top10% 進入了競賽的決賽，通過開創性的技術贏得了企業優選獎，並且取得了前10%的排名。
                         </p>
                     </li>
                 </ul>
                 <div class="Footer_Block">
-                    <a href="https://www.datastation.org.tw/cases/45" target="_blank">Achievement</a>
+                    <a href="https://www.datastation.org.tw/cases/45" target="_blank">成果</a>
                 </div>
             </div>
 
             <!-- fubon -->
-            <div data-date="July 2022 – August 2022 <br> Taipei, Taiwan">
-                <h3><a href="https://www.fubon.com/banking/Personal/index.htm" target="_blank"><b>Taipei Fubon
-                            Bank </b></a></h3>
-                <h4><b>Big Data Intelligence Intern</b></h4>
+            <div data-date="2022/07 – 2022/09 <br> Taipei, Taiwan">
+                <h3><a href="https://www.fubon.com/banking/Personal/index.htm" target="_blank"><b>台北富邦銀行 </b></a></h3>
+                <h4><b>大數據分析部門實習生</b></h4>
                 <ul>
                     <li>
                         <p>
-                            Implemented efficient CRUD operations in Oracle, handling a substantial dataset of over 1TB.
-                            This facilitated swift data extraction, offering vital information support for diverse
-                            business units, contributing to enhanceddecision-making processes.
+                            實現了 Oracle 中高效的 CRUD 操作，處理了一個超過 1TB 的大型數據集。這促進了資料的快速提取，為不同業務單位提供了重要的信息支持，有助於提升決策過程的效率。
                         </p>
                     </li>
                     <li>
                         <p>
-                            Leveraged advanced statistical modeling to analyze juvenile accounts, creating insightful
-                            Tableau dashboards. Achieved a 15% improvement in marketing precision and identified key
-                            business insights.
+                            引入外部數據分析了小富翁帳戶，創建了 Tableau 互動式儀表板。成功提高了 15% 的營銷精度，並識別出了關鍵的商業洞察。
                         </p>
                     </li>
                 </ul>
             </div>
 
             <!-- nccu ta -->
-            <div data-date="June 2023 – December 2023 <br> Taipei, Taiwan">
-                <h3><a href="https://www.nccu.edu.tw/" target="_blank"><b>National Cheng Chi University (NCCU)
+            <div data-date="2023/06 – 2023/12 <br> Taipei, Taiwan">
+                <h3><a href="https://www.nccu.edu.tw/" target="_blank"><b>國立政治大學 NCCU
                         </b></a></h3>
-                <h4><b>TA: SAS/R Business Data Analysis</b></h4>
+                <h4><b>TA: SAS/R 商業數據分析</b></h4>
                 <ul>
                     <li>
-                        <p>Provided guidance and support to 50+ students, concurrently contributing to the grading
-                            process of
-                            assignments.
+                        <p>指導並支援了 50+ 名學生，同時參與作業評分過程。
+
                         </p>
                     </li>
                     <li>
-                        <p>Emphasized the instruction of machine learning concepts, steering students in the application
-                            of R
-                            for pragmatic data analysis, and fostering their proficiency in implementing machine
-                            learning within
-                            a business framework.
+                        <p>上台教學機器學習的基本概念與商業應用，引導學生應用 R 進行實用數據分析，並培養他們在商業框架中實施機器學習的能力。
                         </p>
                     </li>
                 </ul>
@@ -285,7 +259,7 @@
     <!-- End #work experience -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading"><b>Recent Projects</b></h2>
+        <h2 class="heading"><b>作品集</b></h2>
 
         <br>
 
@@ -320,16 +294,12 @@
                         <h3>
                             <a href="https://github.com/AntioTseng/LSTM-combined-with-Black-Litterman-Model-to-find-the-best-investment-portfolio.git"
                                 target="_blank">
-                                <b>Optimizing Investment Portfolios using LSTM combined with the Black-Litterman
-                                    Model</b>
+                                <b>利用 LSTM 結合 Black-Litterman 模型優化投資組合</b>
                             </a>
                         </h3>
                         <p>
-                            This project merges LSTM with the Black-Litterman Model to enhance investment portfolio
-                            optimization. It utilizes supervised learning techniques for asset management and evaluates
-                            portfolio performance
-                            against relevant indicators. Methodology involves predicting returns with LSTM and
-                            optimizing weights via mean-variance optimization.
+                            這個專案將 LSTM 與 Black-Litterman 模型結合，以增強投資組合的優化。它利用監督式學習技術進行資產管理，並根據相關指標評估投資組合的表現。方法包括使用 LSTM
+                            預測回報，並通過均值-方差優化來優化權重。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -358,16 +328,11 @@
                     <div class="project-info">
                         <h3>
                             <a href="https://github.com/AntioTseng/Cooking-ingredient-object-detection" target="_blank">
-                                <b>Cooking Ingredient Object Detection</b>
+                                <b>烹飪食材物件偵測</b>
                             </a>
                         </h3>
                         <p>
-                            Our Cooking Ingredient Object Detection combines YOLO (You Only Look Once) technology
-                            and
-                            Python-powered AI analytics. The Streamlit-based interface ensures swift and accurate
-                            ingredient identification, simplifying the user's kitchen experience with automated
-                            recipe
-                            suggestions.
+                            此專案將烹飪食材物件偵測使用了 YOLO 演算法，並基於 Streamlit 的界面確保了快速準確的食材識別，通過自動配方建議簡化了用戶的廚房體驗，並能基於偵測食材即刻推薦最適料理。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -397,17 +362,14 @@
                     <div class="project-info">
                         <h3>
                             <a href="https://github.com/AntioTseng/DBMS_Final_Project" target="_blank">
-                                <b>NBA Playoff Betting System</b>
+                                <b>NBA 季後賽投注系統
+                                </b>
                             </a>
                         </h3>
                         <p>
-                            This is a betting system designed for the NBA playoffs. We implemented it using Python
-                            with
-                            the Flask framework, HTML, and CSS, and adopted SQLite as the backend database. The
-                            system
-                            offers features such as account creation, viewing player and team information, and
-                            placing
-                            bets.
+                            本專案是一個針對 NBA 季後賽設計的投注系統。我們使用 Flask 框架、HTML/CSS 進行實現，並採用 SQLite
+                            作為後端數據庫。該系統提供了帳戶創建、查看球員和球隊信息以及下注等功能。
+
                         </p>
                         <div id="keywords">
                             <ul>
@@ -435,17 +397,14 @@
                         <h3>
                             <a href="https://github.com/AntioTseng/LLM-related-assignments-by-lee-hung-yi"
                                 target="_blank">
-                                <b>Hung-Yi Lee - LLM Related Assignments</b>
+                                <b>【機器學習 2023】 - LLM 相關作業</b>
                             </a>
                         </h3>
                         <p>
-                            This project documents Professor Lee Hung-yi's 2023 Machine Learning course LLM-related
-                            assignments. HW4
-                            involves constructing a self-attention network for speaker classification. HW5
-                            focuses on using a transformer
-                            for seq2seq translation between Chinese and English. HW7 entails fine-tuning a
-                            pre-trained BERT model to
-                            perform Question-Answering (QA) tasks.
+                            這個專案記錄了李宏毅教授 2023 年機器學習課程中的 LLM 相關作業。
+                            HW4 涉及構建一個 self-attention 網絡進行語音分類。
+                            HW5 專注於使用 Transformer 進行 seq2seq 的中英文翻譯。
+                            HW7 包括對預先訓練的 BERT 模型進行 Fine-tuning，執行問答（QA）任務。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -475,17 +434,12 @@
                     <div class="project-info">
                         <h3>
                             <a href="doc/Antio_Internship_Report_Only_Project.pdf#page=4" target="_blank">
-                                <b>iKala Project - Potential Kol</b>
+                                <b>iKala 專案 - 潛力網紅</b>
                             </a>
                         </h3>
                         <p>
-                            Leveraging machine learning and deep learning techniques, we predict the fan growth
-                            potential of KOLs on various platforms. Through the application of the
-                            LightGBM model, we forecast KOL potential over the next eight weeks based on data from the
-                            initial six weeks, achieving an impressive average precision of 70%. Successfully
-                            implemented and integrated into <b><a href="images/potential_ex.png"
-                                    target="_blank">real-world
-                                    product</a></b>.
+                            運用機器學習和深度學習技術，我們預測了不同平台的 KOL 的粉絲增長潛力。通過應用 LightGBM 模型，我們根據前六周的數據，預測接下來八周的 KOL 潛力，達到平均召回率達
+                            70%。此模型已成功實施並上架到 <b><a href="images/potential_ex.png" target="_blank">實際產品</a></b> 中。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -517,16 +471,12 @@
                     <div class="project-info">
                         <h3>
                             <a href="doc/Antio_Internship_Report_Only_Project.pdf#page=8" target="_blank">
-                                <b>iKala Project - Hotness & Trending Hashtags</b>
+                                <b>iKala 專案 - 熱度&趨勢 Hashtag </b>
                             </a>
                         </h3>
                         <p>
-                            This project aims to redefine a formula measuring hashtag popularity, identifying current
-                            trends. By strategically incorporating business-defined variables and statistical analysis,
-                            a mathematical formula is
-                            designed. The insights are visualized through Looker Studio dashboards for marketing units,
-                            successfully integrated
-                            into our product lineup.
+                            這個專案旨在定義衡量 Hashtag 熱門程度的公式，並識別當前的趨勢。通過策略性地結合商業定義的變量和統計分析，設計了一個數學公式。最終通過Looker
+                            Studio儀表板呈現給市場部門，並成功地整合到我們的產品系列中。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -554,15 +504,11 @@
                     <div class="project-info">
                         <h3>
                             <a href="doc/Antio_Internship_Report_Only_Project.pdf#page=9" target="_blank">
-                                <b>iKala Project - Knowledge Graph</b>
+                                <b>iKala 專案 - 網紅貼文知識圖譜</b>
                             </a>
                         </h3>
                         <p>
-                            Utilizing LLM, we construct knowledge graphs from social media posts, extracting entities,
-                            attributes, and
-                            relationships. Key tasks involve defining these elements, refining prompts for optimal
-                            performance, and ultimately
-                            implementing few-shot learning techniques for enhanced effectiveness.
+                            運用LLM技術，我們從社群媒體貼文中建立知識圖，提取實體、屬性和關係。關鍵任務包括定義這些要素、調整提示以達到最佳效能，最終採用 few-shots 技術，以提升效益。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -589,13 +535,11 @@
                     <div class="project-info">
                         <h3>
                             <a href="doc/Antio_Internship_Report_Only_Project.pdf#page=6" target="_blank">
-                                <b>iKala Project - High Frequency & Useless Hashtags</b>
+                                <b>iKala 專案 - 高頻無用 Hashtag </b>
                             </a>
                         </h3>
                         <p>
-                            High Frequency & Useless Hashtags aims to analyze frequently used but unoriginal hashtags on
-                            social media. By applying TF-IDF, we filter out high-frequency yet non-unique hashtags in
-                            specific articles for further analysis.
+                            本專案的目標是分析並排除社交媒體上常被使用但長期被濫用的 hastags。最終透過應用TF-IDF技術，我們過濾特定文章中高頻率但非獨特的標籤，以進行進一步的分析。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -625,15 +569,13 @@
                     <div class="project-info">
                         <h3>
                             <a href="doc/Antio_Internship_Report_Only_Project.pdf#page=5" target="_blank">
-                                <b>iKala Project - Related KOL</b>
+                                <b>iKala 專案 - 關聯網紅 </b>
                             </a>
                         </h3>
                         <p>
-                            This project identifies community-interacting KOLs, aiding KOL Radar in innovative business
-                            plans and integrating them into <b><a href="images/related3.png" target="_blank">real-world
-                                    product</a></b>. Related influencers, with genuine connections, are prioritized
-                            using
-                            influencer analysis, social network analysis, and rule-based ranking.
+                            這個專案旨在辨識實際有與社群互動的 KOL，透過影響力分析、社群網路分析和基於規則的排名，我們優先考慮真實連結的相關意見領袖，並最終整合實際上架於 <b><a
+                                    href="images/related3.png" target="_blank">
+                                    實際產品</a></b> 中。
                         </p>
                         <div id="keywords">
                             <ul>
@@ -652,22 +594,20 @@
                 <div class="project shadow-large" data-category="nlp">
                     <div class="project-image">
                         <div class="carousel" id="carousel10">
-                            <img src="images/rag.png" alt="">
+                            <img src="images/RAG.png" alt="">
                         </div>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>
                             <a href="https://github.com/AntioTseng/llama2-faiss-langchain-qa-RAG" target="_blank">
-                                <b>Utilizing LLAMA 2, RAG, and LangChain for Personalized Question-Answering</b>
+                                <b>利用 LLAMA2、RAG 和 LangChain 進行客製化問答</b>
                             </a>
                         </h3>
                         <p>
-                            This project utilizes personal websites for tailored question-answering (QA) solutions,
-                            employing the RAG model, LLAMA
-                            2, FAISS, and LangChain technologies. Through these tools, it constructs a robust QA system,
-                            enhancing data retrieval
-                            and processing capabilities with external website data.
+                            該專案利用 RAG（擷取增強生成），並以此網站作為外部資料，使用 LLAMA2 模型以及 FAISS 技術和 LangChain 框架，建立了一個的 QA
+                            機器人，能夠回答我的個人的學經歷問題。
+
                         </p>
                         <div id="keywords">
                             <ul>
@@ -690,7 +630,7 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading"><b>Skills</b></h2>
+        <h2 class="heading"><b>技能</b></h2>
         <ul>
             <li>Python</li>
             <li>R</li>
@@ -711,7 +651,7 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>聯絡我</h2>
         <a href="mailto: antio.tseng@yahoo.com.tw" style="color:#0a0101;">antio.tseng@yahoo.com.tw</a>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/f/xoqbglwq">
