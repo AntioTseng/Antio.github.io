@@ -105,10 +105,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const chineseButton = document.getElementById('chineseButton');
 
     englishButton.addEventListener('click', function () {
-        window.location.href = 'https://antiotseng.github.io/antio.github.io/';
+        window.location.href = 'https://antiotseng.github.io/antio.github.io/index.html';
     });
 
     chineseButton.addEventListener('click', function () {
-        window.location.href = 'index_zh.html';
+        window.location.href = 'https://antiotseng.github.io/antio.github.io/index_zh.html';
     });
 });
