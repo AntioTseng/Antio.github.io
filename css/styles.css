@@ -1380,9 +1380,28 @@ ul {
     top: 10px;
     right: 10px;
     z-index: 9999;
-    /* transition: top 0.3s ease; */
+    transition: top 0.3s ease;
 }
 
 #language-buttons.hidden {
     top: -50px;
+}
+
+#englishButton,
+#chineseButton {
+    background-color: #5881aa;
+    color: #FFFFFF;
+    padding: 8px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+#englishButton:hover,
+#chineseButton:hover {
+    background-color: #3b5998;
 }

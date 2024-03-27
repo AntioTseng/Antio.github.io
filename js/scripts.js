@@ -99,33 +99,33 @@
 
 })(jQuery);
 
-document.addEventListener("DOMContentLoaded", function () {
-    var chineseButton = document.getElementById("chineseButton");
-    var englishButton = document.getElementById("englishButton");
+// 获取按钮和内容容器元素
+const englishButton = document.getElementById('englishButton');
+const chineseButton = document.getElementById('chineseButton');
+const contentContainer = document.getElementById('contentContainer');
 
-    chineseButton.addEventListener("click", function () {
-        translateToChinese();
-    });
+// 默认加载英文内容
+loadContent('index.html');
 
-    englishButton.addEventListener("click", function () {
-        translateToEnglish();
-    });
-
-    function translateToChinese() {
-        var text = document.getElementById("content").innerHTML;
-        google.language.translate(text, "en", "zh-CN", function (result) {
-            if (result.translation) {
-                document.getElementById("content").innerHTML = result.translation;
-            }
-        });
-    }
-
-    function translateToEnglish() {
-        var text = document.getElementById("content").innerHTML;
-        google.language.translate(text, "zh-CN", "en", function (result) {
-            if (result.translation) {
-                document.getElementById("content").innerHTML = result.translation;
-            }
-        });
-    }
+// 英文按钮点击事件
+englishButton.addEventListener('click', function () {
+    loadContent('index.html');
 });
+
+// 中文按钮点击事件
+chineseButton.addEventListener('click', function () {
+    loadContent('index_zh.html');
+});
+
+// 加载内容函数
+function loadContent(url) {
+    fetch(url)
+        .then(response => response.text())
+        .then(html => {
+            // 将加载的 HTML 内容插入到内容容器中
+            contentContainer.innerHTML = html;
+        })
+        .catch(error => {
+            console.error('Error loading content:', error);
+        });
+}
