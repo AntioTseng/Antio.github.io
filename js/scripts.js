@@ -99,33 +99,16 @@
 
 })(jQuery);
 
-// 获取按钮和内容容器元素
-const englishButton = document.getElementById('englishButton');
-const chineseButton = document.getElementById('chineseButton');
-const contentContainer = document.getElementById('contentContainer');
 
-// 默认加载英文内容
-loadContent('index.html');
+document.addEventListener('DOMContentLoaded', function () {
+    const englishButton = document.getElementById('englishButton');
+    const chineseButton = document.getElementById('chineseButton');
 
-// 英文按钮点击事件
-englishButton.addEventListener('click', function () {
-    loadContent('index.html');
+    englishButton.addEventListener('click', function () {
+        window.location.href = 'https://antiotseng.github.io/antio.github.io/';
+    });
+
+    chineseButton.addEventListener('click', function () {
+        window.location.href = 'index_zh.html';
+    });
 });
-
-// 中文按钮点击事件
-chineseButton.addEventListener('click', function () {
-    loadContent('index_zh.html');
-});
-
-// 加载内容函数
-function loadContent(url) {
-    fetch(url)
-        .then(response => response.text())
-        .then(html => {
-            // 将加载的 HTML 内容插入到内容容器中
-            contentContainer.innerHTML = html;
-        })
-        .catch(error => {
-            console.error('Error loading content:', error);
-        });
-}
