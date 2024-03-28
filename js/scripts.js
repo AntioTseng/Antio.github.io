@@ -100,15 +100,3 @@
 })(jQuery);
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    const englishButton = document.getElementById('englishButton');
-    const chineseButton = document.getElementById('chineseButton');
-
-    englishButton.addEventListener('click', function () {
-        window.location.href = 'https://antiotseng.github.io/antio.github.io/index.html';
-    });
-
-    chineseButton.addEventListener('click', function () {
-        window.location.href = 'https://antiotseng.github.io/antio.github.io/index_zh.html';
-    });
-});
